@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra do produto</title>
+    <style>
+        body{
+            background-color: rgb(45, 43, 49);
+            color: #fffff9;
+            font: normal 15pt arial,verdana,serif;
+            text-align: center;
+            margin-top: 2em;
+            margin-bottom: 2em;
+        }
+        .dados_pessoais{
+            background-color: rgb(45, 43, 49);
+            border: solid orangered 5px;
+            border-radius: 5px;
+            align-items: left;
+            align-content: left;
+            width: 60%;
+            transform: translateX(30%);
+        }
+        fieldset{
+            border: 0;
+
+    </style>
+</head>
+<body>
+  
+
+        <div class="dados_pessoais">
+        <fieldset>
+        <p style="font: normal 25pt arial;border: solid orangered 2px;">Dados pessoais</p><br>
+        <label for="pn">Nome:</label><br>
+        <input type="text" name="primeironome" id="pn" value="EX: Dolores"><br><br>
+        <label for="sn">Sobrenome:</label><br>
+        <input type="text" name="sobrenomedapessoa" id="sn" value="EX: Madrigal"><br><br>
+        <label for="F; M">Sexo:</label><br>
+        <input type="radio" name="sexo" value="Fem" id="F">
+        <label for="F">Feminino</label>
+        <input type="radio" name="sexo" value="Mas" id="M">
+        <label for="M">Masculino</label><br><br>
+        <input type="radio" name="sexo" value="ÑBI" id="NB">
+        <label for="NB">Não Binário</label><br><br>
+        <label for="suaidade">Idade:</label><br>
+        <input type="number" name="Idade" id="suaidade"><br><br>
+        </fieldset>
+
+        <fieldset>
+         <p style="font: normal 25pt arial;border: solid orangered 2px;">Meios de contato</p><br>
+        <label for="emaildcontato">Email:</label><br>
+        <input type="email" name="emailparacontato" id="emaildcontato" value="EX: dolores@gmail.com"><br><br>
+        <label for="telefonedcontato">Telefone:</label><br>
+        <input type="tel" name="telefoneparacontato" id="telefonedcontato" value="EX:(47)90000-0000"><br><br>
+        <label for="whats">Whatsapp:</label><br>
+        <input type="tel" name="whatsparacontato" id="whatsdcontato" value="EX: (47)0000-0000"><br><br>
+        </fieldset>
+
+        <fieldset>
+        <p style="font: normal 25pt arial;border: solid orangered 2px;">Endereço</p><br>
+        <label for="Est">Estado:</label><br>
+        <input type="text" name="estadoondemora" id="Est" value="EX: Santa Catarina"><br><br>
+        <label for="Cid">Cidade:</label><br>
+        <input type="text" name="cidadeondemora" id="Cid" value="EX: Brusque"><br><br>
+        <label for="Barro">Bairro:</label><br>
+        <input type="text" name="bairroondemora" id="Barro" value="EX: Maluche"><br><br>
+        <label for="ru">Rua:</label><br>
+        <input type="text" name="ruaondemora" id="ru" value="EX: Rua 25 de agosto"><br><br>
+        <label for="num">Número da casa:</label><br>
+        <input type="number" name="númerodacasa" id="num"><br><br>
+        </fieldset>
+
+        <fieldset>
+        <p style="font: normal 25pt arial;border: solid orangered 2px;">Orçamento</p><br>
+        <label for="prod">Produto:</label><br>
+        <input type="text" name="produtoescolhido" id="prod" value="EX: Maleta Posca"><br><br>
+        <label for="quantia">Quantidade:</label><br>
+        <input type="number" name="quantidadedesejada" id="quantia"><br><br>
+
+        <label for="dindin">Forma de pagamento:</label><br>
+        <select name="dinheirorecebido" id="dindin">
+            <option value="ccrédito">Cartão de Crédito</option>
+            <option value="cdébito">Cartão de Débito</option>
+            <option value="boleto">Boleto Bancário</option>
+       </select><br><br>
+        <label for="seucpf">CPF:</label><br>
+        <input type="text" name="qualseucpf" id="seucpf" value="EX: 000.000.000-00"><br><br>
+       <label for="cdesconto">Obtém cupom de desconto?</label><br>
+       <select name="desconto">
+            <option value="none">Não</option>
+            <option value="40">Sim, 40% de Desconto</option>
+            <option value="20">Sim, 20% de Desconto</option>
+            <option value="5">Sim, 5% de Desconto</option>
+        </select><br><br>
+        <label for="ncredito">Número do cartão de crédito:</label><br>
+        <input type="text" name="númerodocartão" id="ncredito" value="Faça essa caridade e digite o número do seu cartão:D"><br><br>
+        <label for="senha">Senha do cartão de crédito:</label><br>
+        <input type="text" name="senhadocartão" id="senha" value="Digite a senha do seu cartão:D"><br><br>
+        </fieldset>
+
+        
+    <button type="submit"><a href="https://teste-reusetech.000webhostapp.com/prova5.php">Concluido</a></button>
+    </form>
+    </div>
+</body>
+</html>
